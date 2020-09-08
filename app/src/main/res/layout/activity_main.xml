@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientmain"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:outlineAmbientShadowColor="@color/shadow"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="@dimen/button1size"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Click any Button"
+            android:textAlignment="center"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="@dimen/button1size"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview1"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient1"
+            android:elevation="1dp"
+            android:text="@string/button1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="@dimen/button1size"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_1"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient2"
+            android:elevation="1dp"
+            android:text="@string/button2"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="@dimen/button1size"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_2"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient3"
+            android:elevation="1dp"
+            android:text="@string/button3"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="@dimen/button1size"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_3"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient4"
+            android:elevation="1dp"
+            android:text="@string/button4"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="@dimen/button1size"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_4"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient5"
+            android:elevation="1dp"
+            android:text="@string/button5"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
